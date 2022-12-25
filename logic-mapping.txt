@@ -1,0 +1,9 @@
+1 - Create json object with questions
+2 - Create html file
+3 - Add junk data
+4 - Create css file and add styles to elements
+5 - Fetch numbers of questions from json object
+6 - Show questions count + questions category
+7 - Show numbers of questions
+8 - Create varible contains on wrong answer and correct
+10- Creat countdown timer
