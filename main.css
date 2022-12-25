@@ -11,7 +11,7 @@ body {
 .container {
   width: 60%;
   background-color: white;
-  margin: 100px auto;
+  margin: 20px auto;
   padding: 20px;
   border-radius: 12px;
 }
@@ -42,7 +42,8 @@ body {
   bottom: 0;
 }
 .qiuz-info h1 {
-  width: 75%;
+  width: 70%;
+  font-size: 22px;
 }
 .qiuz-info .countdown {
   font-weight: bold;
@@ -50,6 +51,7 @@ body {
   padding: 10px;
   border-radius: 12px;
   color: blue;
+  width: 125px;
 }
 .qiuz-info .countdown .count {
   background-color: black;
@@ -66,4 +68,18 @@ body {
 }
 .quiz-content .question .question-title {
   margin-left: 10px;
+}
+.quiz-content .answers {
+  padding-left: 15px;
+  margin-bottom: 30px;
+}
+.quiz-content .answers .answer {
+  margin-bottom: 25px;
+  border-bottom: 1px solid red;
+  padding: 10px 0;
+}
+.quiz-content .answers .answer input {
+}
+.quiz-content .answers .answer label {
+  cursor: pointer;
 }
