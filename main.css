@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  background-color: #00bcd4;
+}
+.container {
+  width: 60%;
+  background-color: white;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 12px;
+}
+.qiuz-info {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+.qiuz-info::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: silver;
+  left: 0;
+  bottom: 0;
+}
+.qiuz-info::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 4px;
+  background-color: green;
+  left: 0;
+  bottom: 0;
+}
+.qiuz-info h1 {
+  width: 75%;
+}
+.qiuz-info .countdown {
+  font-weight: bold;
+  background-color: #00bcd438;
+  padding: 10px;
+  border-radius: 12px;
+  color: blue;
+}
+.qiuz-info .countdown .count {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 12px;
+}
