@@ -57,3 +57,13 @@ body {
   padding: 5px;
   border-radius: 12px;
 }
+.quiz-content .question {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.quiz-content .question .question-title {
+  margin-left: 10px;
+}
