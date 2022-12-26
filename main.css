@@ -16,6 +16,7 @@ body {
   left: 0;
   background-color: #00000054;
   z-index: 1000;
+  display: none;
 }
 .start button {
   position: absolute;
