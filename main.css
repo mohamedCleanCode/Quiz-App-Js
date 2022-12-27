@@ -96,6 +96,9 @@ body {
 .quiz-content {
   position: relative;
 }
+.quiz-content.none {
+  pointer-events: none;
+}
 .quiz-content .question {
   display: flex;
   align-items: center;
