@@ -16,7 +16,7 @@ body {
   left: 0;
   background-color: #00000054;
   z-index: 1000;
-  display: none;
+  /* display: none; */
 }
 .start button {
   position: absolute;
@@ -119,6 +119,16 @@ body {
 .quiz-content .answers {
   padding-left: 15px;
   margin-bottom: 30px;
+}
+.quiz-content .answers .answer.bad {
+  border: 1px solid red;
+  background-color: #ff000045;
+  pointer-events: none;
+}
+.quiz-content .answers .answer.good {
+  border: 1px solid green;
+  background-color: #0080002e;
+  pointer-events: none;
 }
 .quiz-content .answers .answer {
   margin-bottom: 25px;
