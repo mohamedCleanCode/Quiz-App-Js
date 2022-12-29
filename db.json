@@ -1,68 +1,57 @@
 [
     {
         "id": "1",
-        "question": "What Does HTML Stand For?",
-        "correct_answer": "Hyper Text Markup Language",
+        "question": "What is HTML?",
+        "correct_answer": "All of the mentioned",
         "incorrect_answers": [
-            "SG9uZXk=",
-            "Q2FyYW1lbA==",
-            "Q2FuZHk=",
-            "Hyper Text Markup Language"
+            "HTML describes the structure of a webpage=",
+            "HTML is the standard markup language mainly used to create web pages",
+            "All of the mentioned",
+            "HTML consists of a set of elements that helps the browser how to view the content"
         ]
     },
     {
         "id": "2",
-        "question": "What Does HTML Stand For?",
+        "question": "HTML stands for____?",
         "correct_answer": "Hyper Text Markup Language",
         "incorrect_answers": [
-            "SG9uZXk=",
+            "HyperText Machine Language",
             "Hyper Text Markup Language",
-            "Q2FyYW1lbA==",
-            "Q2FuZHk="
+            "HighText Marking Language",
+            "HyperText Marking Language"
         ]
     },
     {
         "id": "3",
-        "question": "What Does HTML Stand For?",
-        "correct_answer": "Hyper Text Markup Language",
+        "question": "Which element is used for or styling HTML5 layout?",
+        "correct_answer": "CSS",
         "incorrect_answers": [
-            "SG9uZXk=",
-            "Q2FyYW1lbA==",
-            "Hyper Text Markup Language",
-            "Q2FuZHk="
+            "CSS",
+            "jQuery",
+            "JavaScript",
+            "PHP"
         ]
     },
     {
         "id": "4",
-        "question": "What Does HTML Stand For?",
-        "correct_answer": "Hyper Text Markup Language",
+        "question": "Which of the following is used to read an HTML page and render it?",
+        "correct_answer": "Web browser",
         "incorrect_answers": [
-            "Hyper Text Markup Language",
-            "SG9uZXk=",
-            "Q2FyYW1lbA==",
-            "Q2FuZHk="
+            "Web browser",
+            "Web server",
+            "Web network",
+            "Web matrix"
         ]
     },
     {
         "id": "5",
-        "question": "What Does HTML Stand For?",
-        "correct_answer": "Hyper Text Markup Language",
+        "question": "What is DOM in HTML?",
+        "correct_answer": "Convention for representing and interacting with objects in html documents",
         "incorrect_answers": [
-            "SG9uZXk=",
-            "Q2FyYW1lbA==",
-            "Q2FuZHk=",
-            "Hyper Text Markup Language"
-        ]
-    },
-    {
-        "id": "6",
-        "question": "What Does HTML Stand For?",
-        "correct_answer": "Hyper Text Markup Language",
-        "incorrect_answers": [
-            "Hyper Text Markup Language",
-            "SG9uZXk=",
-            "Q2FyYW1lbA==",
-            "Q2FuZHk="
+            "Language dependent application programming",
+            "Hierarchy of objects in ASP.NET",
+            "Application programming interface",
+            "Convention for representing and interacting with objects in html documents"
         ]
     }
 ]

@@ -95,7 +95,7 @@ const clickingAnswer = () => {
 };
 
 // Click on next btn
-const clickOnNextBtn = () => {
+const clickOnNextBtn = (e) => {
   let con = document.querySelector(":checked");
   if (con) {
     queContainer.innerHTML = "";
@@ -126,6 +126,7 @@ const endgame = () => {
     });
   }
   if (success === questions.length) {
+    quizContent.classList.add("none");
     clearInterval(stop);
     Swal.fire({
       icon: "success",
@@ -138,5 +139,23 @@ const endgame = () => {
         window.location.reload();
       }
     });
+  }
+  if (num === questions.length + 1 && success < questions.length) {
+    let con = document.querySelector(":checked");
+    if (con) {
+      clearInterval(stop);
+      quizContent.classList.add("none");
+      Swal.fire({
+        icon: "error",
+        title: "Game Over!",
+        text: "Do you want play again!",
+        showCancelButton: true,
+        showConfirmButton: true,
+      }).then((res) => {
+        if (res.isConfirmed) {
+          window.location.reload();
+        }
+      });
+    }
   }
 };
